@@ -1,0 +1,24 @@
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #b98390;
+  background-color: #c4d1da;
+}
+
+h1 {
+  color:rgb(131, 195, 232);
+  font-size: 800%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p {
+  text-indent: 0.5in;
+  color: rgb(230, 159, 184);
+}
+
+body {
+  background-color: rgb(225, 227, 214);
+}
+
+
