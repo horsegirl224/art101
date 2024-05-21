@@ -1,5 +1,5 @@
 /*
-   lab.js - This simple JavaScript/jQuery script gets a value from an input field and outputs a modified version.
+   lab.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
 
    Requirements: jQuery must be loaded for this script to work.
 
