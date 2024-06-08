@@ -1,43 +1,25 @@
-// index.js - purpose and description here
+// index.js -make username and display it
 // Author: Jasmyn Romo 
 // Date: May 2
 
-// shuffleArray - take an array and shuffle the contents
-function shuffleArray(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
 
 
-  while (0 !== currentIndex) {
-      // Pick a remaining element.
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-  }
-  return array;
-}
-
-// sortUserName - a function that takes user input and sorts the letters
-// of their name
+// sortusername 
 function sortUserName(userName) {
 
   return userName.toLowerCase().split("").sort().join("");
 }
 
-// sortUserName - a function that takes user input and sorts the letters
-// of their name
+// sortusername 
 function randomizeName(userName) {
-  // convert userName string to an array
+  // convert username string to an array
   var nameArray = userName.toLowerCase().split("");
   console.log("nameArray =", nameArray);
   // shuffle array with our shuffle function
   var shuffledArray = shuffleArray(nameArray);
   console.log("shuffledArray =", shuffledArray);
   var shuffledString = shuffledArray.join("");
-  // shift to Title Case (like a name)
+  // shift to title case (like a name)
   var newName = toTitleCase(shuffledString);
   // return array to a string
   return newName;
