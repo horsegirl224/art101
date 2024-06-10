@@ -31,3 +31,21 @@ h3 {
   font-family:'Courier New', Courier, monospace;
   font-size: 100%;
 }
+
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
+}
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(217, 131, 131);
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
