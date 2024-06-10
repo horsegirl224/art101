@@ -1,8 +1,8 @@
-// index.js - Lab 16: JSON and APIs (XKCD comic!)
+// index.js - Lab 16: JSON and APIs 
 // Author: Jasmyn Romo 
 // Date: 6/7/24
 $.ajax({
-    dataType: "json", // Note: dataType should be lowercase "json"
+    dataType: "json", // 
     success: function(data) {
         console.log(data);
         // Assuming data contains an image URL and some text, update the DOM accordingly
